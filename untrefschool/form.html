@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="https://formsubmit.co/valdivako02@gmail.com" method="POST">
+        <fieldset>
+            <legend>Contactanos</legend>
+            <div class="form-control">
+                <label for="name">Nombre</label>
+                <input type="name" id="name" placeholder="Ingres tu nombre" required />
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Ingresa tu email" required />
+            </div>
+
+            <div class="form-control">
+                <label for="email">Tel</label>
+                <input type="number" id="number" placeholder="Ingresa tu numero" non-required />
+            </div>
+
+            <div class="form-control">
+                <label for="message">Mensaje</label>
+                <textarea id="message" cols="30" rows="10" placeholder="ingresa tu mensaje" required></textarea>
+            </div>
+            <input type="submit" value="Enviar" class="submit-btn" />
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
