@@ -9,9 +9,9 @@
         font-size: 14px;
     }
 
-    img {
-        min-width: 400px;
-        height: 400px;
+    .pencils-img,
+    .teacher-img {
+        display: none;
     }
 }
 
@@ -20,9 +20,9 @@
         font-size: 12px;
     }
 
-    img {
-        min-width: 200px;
-        height: 200px;
+    .pencils-img,
+    .teacher-img {
+        display: none;
     }
 }
 
@@ -56,18 +56,19 @@
 
 .first-section-p {
     display: flex;
-    margin-left: 5px;
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
     margin-top: 30px;
 }
 
-.first-section-t{
+
+.first-section-t {
     margin-top: 20px;
 }
 
 .pencils-img {
     max-width: 500px;
-    margin-right: 20rem;
+    margin-right: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -93,11 +94,11 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     margin-left: 5px;
-    margin-right: 10px;
+    margin-right: 20px;
     padding: 20px;
 }
 
-.third-section-t{
+.third-section-t {
     margin-top: 20px;
 }
 
@@ -108,7 +109,7 @@
     vertical-align: top;
 }
 
-.news-title{
+.news-title {
     margin-top: 20px;
 }
 
@@ -124,7 +125,7 @@
     justify-content: space-between;
 }
 
-.footer-t{
+.footer-t {
     margin-top: 20px;
     margin-bottom: 5px;
 }
